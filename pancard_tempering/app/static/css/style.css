@@ -1,0 +1,93 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 400px;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+input[type="file"] {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button {
+    background-color: #00c6ff;
+    background-image: linear-gradient(45deg, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-image: linear-gradient(45deg, #0072ff, #00c6ff);
+}
+
+.result {
+    margin-top: 25px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #e0f7fa;
+}
+
+.result .tampered {
+    color: #ff6666;
+}
+
+.result .genuine {
+    color: #66ff99;
+}
+
+.preview {
+    margin-top: 20px;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 0.9em;
+    color: #ccc;
+}
